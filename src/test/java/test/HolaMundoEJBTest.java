@@ -30,8 +30,8 @@ public class HolaMundoEJBTest {
 		
 		int resultado = ejb.sumar(dato1, dato2);
 		assertEquals((dato1+dato2),resultado);
+		//assertEquals(7,resultado);
 		System.out.println("Operación terminada, resultado: " + resultado);
-		
 	}
 	
 	
